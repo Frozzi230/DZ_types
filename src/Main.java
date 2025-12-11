@@ -1,15 +1,26 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+public class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Задача №1");
+        int a = 3000000;
+        byte b = 127;
+        short c = 32000;
+        long d = 18758;
+        float e = 3.78f;
+        double f = 8.78954128;
+        System.out.println("Значение переменной " + a + " с типом " + "int" + " равно " + "2000000");
+        System.out.println("Значение переменной " + b + " с типом " + "byte" + " равно " + "127");
+        System.out.println("Значение переменной " + c + " с типом " + "short" + " равно " + "32000");
+        System.out.println("Значение переменной " + d + " с типом " + "long" + " равно " + "18758");
+        System.out.println("Значение переменной " + e + " с типом " + "float" + " равно " + "3.78f");
+        System.out.println("Значение переменной " + f + " с типом " + "double" + " равно " + "8.78954128");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println( );
+
+        System.out.println("Задача №2");
+
     }
 }

@@ -11,12 +11,12 @@ public class Main
         long d = 18758;
         float e = 3.78f;
         double f = 8.78954128;
-        System.out.println("Значение переменной " + a + " с типом " + "int" + " равно " + "2000000");
-        System.out.println("Значение переменной " + b + " с типом " + "byte" + " равно " + "127");
-        System.out.println("Значение переменной " + c + " с типом " + "short" + " равно " + "32000");
-        System.out.println("Значение переменной " + d + " с типом " + "long" + " равно " + "18758");
-        System.out.println("Значение переменной " + e + " с типом " + "float" + " равно " + "3.78f");
-        System.out.println("Значение переменной " + f + " с типом " + "double" + " равно " + "8.78954128");
+        System.out.println("Значение переменной a с типом " + "int" + " равно " + "3000000");
+        System.out.println("Значение переменной b с типом " + "byte" + " равно " + "127");
+        System.out.println("Значение переменной c с типом " + "short" + " равно " + "32000");
+        System.out.println("Значение переменной d с типом " + "long" + " равно " + "18758");
+        System.out.println("Значение переменной e с типом " + "float" + " равно " + "3.78f");
+        System.out.println("Значение переменной f с типом " + "double" + " равно " + "8.78954128");
 
         System.out.println( );
 

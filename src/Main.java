@@ -8,7 +8,7 @@ public class Main
         int a = 3000000;
         byte b = 127;
         short c = 32000;
-        long d = 18758;
+        long d = 18758L;
         float e = 3.78f;
         double f = 8.78954128;
         System.out.println("Значение переменной " + a + " с типом " + "int" + " равно " + a);
@@ -46,16 +46,16 @@ public class Main
         byte time = 2;
         int quantityOne = quantity / time;
         int times = 20;
-        int quantityAll = quantity * times;
+        int quantityAll = quantityOne * times;
         System.out.println("За " + times + " минут" + " машина произвела " + quantityAll + " штук бутылок ");
         times = 60 * 24; //Выясняем сколько минут в сутках
-        quantityAll = quantity * times;
+        quantityAll = quantityOne * times;
         System.out.println("За сутки машина произвела " + quantityAll + " штук бутылок ");
         times = 60 * 3;//Выясняем сколько минут в 3х днях
-        quantityAll = quantity * times;
+        quantityAll = quantityOne * times;
         System.out.println("За 3 дня машина произвела " + quantityAll + " штук бутылок ");
         times = 60 * 24 * 30;//Выясняем сколько минут в месяце
-        quantityAll = quantity * times;
+        quantityAll = quantityOne * times;
         System.out.println("За месяц машина произвела " + quantityAll + " штук бутылок ");
 
         System.out.println( );
